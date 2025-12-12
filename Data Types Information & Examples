@@ -1,0 +1,24 @@
+
+public class DataTypesDemo {
+
+	public static void main(String[] args) {
+
+		byte age = 22;
+		short weight = 66;
+		int studentId = 65894;
+		float marks = 75.47f;
+		double mobailNo = 8010553084d;
+		long adharNo = 802564200779l;
+		
+		System.out.println("Following are the Data Types & it's Data...");
+		System.out.println();
+		System.out.println("--> byte: "+age);
+		System.out.println("--> short: "+weight);
+		System.out.println("--> int: "+studentId);
+		System.out.println("--> float: "+marks);
+		System.out.println("--> double: "+mobailNo);
+		System.out.println("--> long: "+adharNo);
+		
+	}
+
+}
