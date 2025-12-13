@@ -1,0 +1,43 @@
+
+public class DataTypeDay2 {
+
+	public static void main(String[] args) {
+
+		System.out.println("\n--->Following are the Data_Type Size in Bytes...");
+
+		System.out.println("\nByte Size is " + Byte.BYTES + " Byte");
+		System.out.println("Short Size is " + Short.BYTES + " Short");
+		System.out.println("Integer Size is " + Integer.BYTES + " Integer");
+		System.out.println("Long Size is " + Long.BYTES + " Long");
+		System.out.println("Float Size is " + Float.BYTES + " Float");
+		System.out.println("Double Size is " + Double.BYTES + " Double");
+		System.out.println("Character Size is " + Character.BYTES + " Character");
+		System.out.println("Boolean Size is not found...");
+
+		System.out.println("\n--->Following are the Data_Type Size in Bits...");
+
+		System.out.println("\nByte Size is " + Byte.SIZE + " Byte");
+		System.out.println("Short Size is " + Short.SIZE + " Short");
+		System.out.println("Integer Size is " + Integer.SIZE + " Integer");
+		System.out.println("Long Size is " + Long.SIZE + " Long");
+		System.out.println("Float Size is " + Float.SIZE + " Float");
+		System.out.println("Double Size is " + Double.SIZE + " Double");
+		System.out.println("Character Size is " + Character.SIZE + " Character");
+		System.out.println("Boolean Size is not found...");
+
+		System.out.println("\n--->Following are the Data_Type Data Storing Range");
+
+		System.out.println("\nByte Data Storing Range: " + Byte.MAX_VALUE + " To " + Byte.MAX_VALUE);
+		System.out.println("Short Data Storing Range: " + Short.MAX_VALUE + " To " + Short.MAX_VALUE);
+		System.out.println("Integer Data Storing Range: " + Integer.MAX_VALUE + " To " + Integer.MAX_VALUE);
+		System.out.println("Long Data Storing Range: " + Long.MAX_VALUE + " To " + Long.MAX_VALUE);
+		System.out.println("Float Data Storing Range: " + Float.MAX_VALUE + " To " + Float.MAX_VALUE);
+		System.out.println("Double Data Storing Range: " + Double.MAX_VALUE + " To " + Double.MAX_VALUE);
+		System.out.println(
+				"Character Data Storing Range: " + (int) Character.MAX_VALUE + " To " + (int) Character.MAX_VALUE);
+		System.out.println("Byte Data Storing Range: " + Byte.MAX_VALUE + " To " + Byte.MAX_VALUE);
+
+	}
+
+}
+
