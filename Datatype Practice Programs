@@ -1,0 +1,80 @@
+1. Calculator
+
+package practice;
+public class Calculator {
+	public static void main(String[] args) {
+
+		int num1 = 50;
+		int num2 = 5;
+		System.out.println("---> Following are the Arathmatic Operations...");
+		System.out.println("\nAddition Of Two Number: "+ (num1)+" + "+(num2)+" = "+(num1 + num2));
+		System.out.println("Substraction Of Two Number: "+ (num1)+" - "+(num2)+" = "+(num1 - num2));
+		System.out.println("Multiflication Of Two Number: "+ (num1)+" * "+(num2)+" = "+(num1 * num2));
+		System.out.println("Division Of Two Number: "+ (num1)+" / "+(num2)+" = "+(num1 / num2));
+		System.out.println("Modulos Of Two Number: "+ (num1)+" % "+(num2)+" = "+(num1 % num2));
+	}
+}
+
+2. Self Information
+
+package practice;
+public class MyInfo {
+	public static void main(String[] args) {
+
+		byte id = 10;
+		short weight = 66;
+		int rollNo = 1306;
+		long mobailNo = 8010553084l;
+		float mcaMarks = 75.47f;
+		double height = 185.80;
+		char mcaGread = 'A';
+		boolean age = true;
+		String name = "Vishal Kachare";
+		String pancardNo = "854857KLM74";
+
+		System.out.println("--->Following are the Presonal Information...");
+
+		System.out.println("\nMy Name is: " + name);
+		System.out.println("My Class Id is: " + id);
+		System.out.println("My Roll Number is: " + rollNo);
+		System.out.println("My Weight is: " + weight);
+		System.out.println("My Mobail Number is: " + mobailNo);
+		System.out.println("My Height: " + height);
+		System.out.println("My Pancard Number: " + pancardNo);
+		System.out.println("My MCA Marks: " + mcaMarks);
+		System.out.println("My MCA Gread: " + mcaGread);
+		System.out.println("I am a 18+ Candidate: " + age);
+	}
+}
+
+3. Employee Information
+
+package practice;
+public class Employee {
+	public static void main(String[] args) {
+
+		byte emplId = 101;
+		short emplWeight = 80;
+		int emplCabinNo = 1930;
+		long emplContactNo = 8010553084l;
+		float emplSalary = 58000.500f;
+		double emplHeight = 185.80;
+		char emplGread = 'A';
+		boolean present = true;
+		String emplName = "Rajesh Mehata";
+		String emplPancardNo = "854857KLM74";
+
+		System.out.println("--->Following are the Employee Information...");
+
+		System.out.println("\nEmployee Name: " + emplName);
+		System.out.println("Employee Id: " + emplId);
+		System.out.println("Employee Cabin Number: " + emplCabinNo);
+		System.out.println("Employee Weight: " + emplWeight);
+		System.out.println("Employee Contact Number: " + emplContactNo);
+		System.out.println("Employee Height: " + emplHeight);
+		System.out.println("Employee Pan Number: " + emplPancardNo);
+		System.out.println("Employee Salary: " + emplSalary);
+		System.out.println("Employee Gread: " + emplGread);
+		System.out.println("Employee are present today: " + present);
+	}
+}
