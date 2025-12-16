@@ -1,0 +1,53 @@
+--->Following are the Local Variable Examples: 
+
+-->Following are the Employee Information...
+
+Employee Name: Vishal Kachare
+Employee Id: 10
+Employee Cabin Number: 1930
+Employee Weight: 80
+Employee Contact Number: 8010553084
+Employee Height: 185.8
+Employee Pan Number: 854857KLM74
+Employee Salary: 58000.5
+Employee Gread: A
+Employee are present today: true
+
+-->Following are the Studnet Information...
+
+Studnet Name: Vishal Kachare
+Studnet Id: 102
+Studnet Roll Number: 1110
+Studnet Weight: 70
+Studnet Contact Number: 8010553084
+Studnet Height: 184.8
+Studnet Pan Number: 854857KLM74
+Studnet Fees: 80000.5
+Studnet Gread: A
+Studnet are present today: true
+
+-->Following are the Library Information...
+
+Library Name: Wachnalay
+Library Id: 20
+Library Number: 1111
+Library Fees: 1000.5
+Library are Open today: true
+
+-->Following are the Vehicle Information...
+
+Vehicle Name: Kawasaki Ninja H2R
+Vehicle Id: 10
+Vehicle Number: 2748
+Vehicle Price: 2000000.7
+Vehicle Speed: 300 km/hrs
+Vehicle color Black: true
+
+-->Following are the Hospital Information...
+
+Hospital Name: Sanjivani
+Hospital Id: 100
+Hospital Number: 17
+Hospital Charges: 20000.5
+Hospital are Open: true
+Hospital Address: Satara
