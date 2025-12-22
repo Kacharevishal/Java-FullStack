@@ -1,0 +1,130 @@
+1. First Example
+
+package operator;
+public class IncremDecreOpEx1 {
+	public static void main(String[] args) {
+		int a = 5;
+		a++;
+		++a;
+		--a;
+		System.out.println(a); //6
+		System.out.println(a+=5); //11
+		a--; 
+		a--;
+		a++;
+		a%=2;//0
+		System.out.println(a+6);//6
+		System.out.println(a);//0
+	}
+}
+
+2. Second Example
+
+package operator;
+public class IncreDecreOpEx2 {
+	public static void main(String[] args) {
+		int a = 5;
+		int b = 6;
+		
+		a++;//6
+		b++;//7
+		++a;//7
+		++b;//8
+		System.out.println(a+=5);//12
+		System.out.println(b);//8
+		b++;//9
+		b--;//8
+		System.out.println(a);//12
+		System.out.println(b);//8
+		a/=2;//6
+		b/=4;//2
+		System.out.println(a);//6
+		System.out.println(b);//2
+	}
+}
+
+3. Third Example
+
+package operator;
+
+public class IncreDecreOpEx3 {
+	public static void main(String[] args) {
+		int a = 5;
+		int b = 6;
+		int c = 7;
+		
+		a+=5;//10
+		b-=3;//3
+		c*=2;//14
+		
+		++a;//11
+		++b;//4
+		c++;//14
+		System.out.println(c);//15
+		
+		a+=b;//11 + 4 = 15
+		System.out.println(b);//4
+		b+=c;// 4 + 15 = 19
+		b/=2;// 9
+		System.out.println(a+=c);//15 + 15 = 30
+		c%=2; // 1
+		System.out.println(a);//30
+		System.out.println(b);//9
+		System.out.println(c);//1
+	}
+}
+
+4. Fourth Example
+
+package operator;
+public class IncreDecreOpEx4 {
+	public static void main(String[] args) {
+
+		int a = 2;
+		int b = 3; 
+		a++;
+		a+=5;
+		a%=2;
+		b++;
+		++b;
+		System.out.println(a+5);
+		b*=4;
+		System.out.println(b);
+		b++;
+		++a;
+		++b;
+		System.out.println(a);
+		System.out.println(b);	
+	}
+}
+
+5. Fifth Example
+
+package operator;
+public class IncreDecreOpEx5 {
+	public static void main(String[] args) {
+		int a = 7;
+		int b = 8;
+		int c = 9;
+		
+		a+=5;
+		b-=3;
+		c*=2;
+		
+		++a;
+		++b;
+		c++;
+		System.out.println(c);
+		
+		a+=b;
+		System.out.println(b);
+		b+=c;
+		b/=2;
+		System.out.println(a+=c);
+		c%=2; 
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+	}
+}
+
